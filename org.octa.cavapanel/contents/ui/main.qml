@@ -1,9 +1,11 @@
 import QtQuick
 import org.kde.plasma.plasmoid
 import org.octa.cava 1.0
+import org.kde.plasma.core as PlasmaCore
 
 PlasmoidItem {
     id: root
+    Plasmoid.backgroundHints: PlasmaCore.Types.NoBackground
 
     property int barWidth: 8
     property int barSpacing: 4
