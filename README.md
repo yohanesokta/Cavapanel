@@ -2,6 +2,9 @@
 
 CavaPanel is a Plasma 6 widget that provides an audio visualizer for the KDE Plasma desktop environment. It utilizes a C++ backend to interface with CAVA and a QML frontend for seamless integration into the Plasma Shell.
 
+<img width="959" height="318" alt="image" src="https://github.com/user-attachments/assets/2a929e5a-6bcd-424d-84a7-de30e2ce342d" />
+
+
 ## Prerequisites
 
 Before installation, ensure the following dependencies are installed on your system.
