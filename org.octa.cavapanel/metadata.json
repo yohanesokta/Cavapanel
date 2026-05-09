@@ -1,0 +1,19 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Name": "Cava Panel",
+    "Description": "Cava Visualizer Audio",
+    "Icon": "view-list-text",
+    "Authors": [
+      {
+        "Name": "yohanesoktanio",
+        "Email": "yohanesoktayt72@gmail.com"
+      }
+    ],
+    "Category": "Utilities",
+    "Id": "org.octa.cavapanel",
+    "Version": "1.0",
+    "Website": "https://github.com/yohanesokta"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}
