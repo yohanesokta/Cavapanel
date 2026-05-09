@@ -15,7 +15,7 @@ PlasmoidItem {
     Backend {
         id: backend
 
-        Component.onCompleted: start()
+        Component.onCompleted: start(root.maxBar / 2)
     }
 
     Row {
@@ -32,7 +32,7 @@ PlasmoidItem {
                 property int value: index < backend.bars.length ? backend.bars[index] : 0
                 Rectangle {
                     width: parent.width
-                    height: value
+                    height: (value / 25) * parent.height
                     radius: 2
                     color: "white"
 

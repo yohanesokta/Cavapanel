@@ -17,7 +17,7 @@ public:
 
     QVariantList bars() const;
 
-    Q_INVOKABLE void start();
+    Q_INVOKABLE void start(int bars);
 
 signals:
     void barsChanged();
